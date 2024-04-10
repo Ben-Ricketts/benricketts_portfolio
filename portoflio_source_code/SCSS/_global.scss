@@ -1,0 +1,22 @@
+@use "./variables" as v;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: v.$background-color;
+}
+
+.border {
+  border: 2px solid green;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-bar ul li {
+  list-style-type: none;
+}
