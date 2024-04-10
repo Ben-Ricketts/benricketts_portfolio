@@ -1,3 +1,5 @@
+// <-----------HOMEPAGE STARTS------------->
+
 .nav-bar {
   display: flex;
   gap: 50px;
@@ -45,5 +47,29 @@ hr {
   height: 80vh;
   @media (max-width: 630px) {
     grid-template-columns: 1fr;
+  }
+}
+
+// <-----------HOMEPAGE ENDS------------->
+// <-----------PROJECTS START------------->
+
+.project-main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80vh;
+  @media (max-width: 630px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-boxicons {
+  display: flex;
+  margin: 0px 0px 0px 30px;
+  gap: 5px;
+  img {
+    z-index: -1;
+  }
+  @media (max-width: 600px) {
+    justify-content: center;
   }
 }

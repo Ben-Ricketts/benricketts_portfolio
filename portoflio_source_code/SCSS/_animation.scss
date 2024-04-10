@@ -1,0 +1,21 @@
+@mixin button-hover() {
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+.project-btn {
+  @include button-hover();
+}
+
+.contact-btn {
+  @include button-hover();
+}
+
+.nav-bar a {
+  &:hover {
+    @include button-hover();
+    color: green;
+  }
+}

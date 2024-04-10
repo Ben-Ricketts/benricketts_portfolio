@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ben Ricketts</title>
+    <title>Projects</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
         <li>
 			<box-icon type="solid" name="home-alt-2" color="white"></box-icon
 				>
-            <a class="home" href="#"
+            <a href="./index.html"
               >home</a
             >
           </li>
@@ -61,7 +61,7 @@
           <li>
 			<box-icon type="solid" name="home-alt-2" color="white"></box-icon
 				>
-            <a class="home" href="#"
+            <a href="#"
               >home</a
             >
           </li>
@@ -97,23 +97,31 @@
 </header>
 
 <main>
-	<div class="homepage-body-section">
-	<section >
-		<div class="homepage-text">
-		<h1>ben ricketts, <br>
-			front end developer.</h1>
-		</div>
-		<div class="btn-container">
-			<button class="project-btn">projects</button>
-			<button class="contact-btn">contact me</button>
-		</div>
-	
+	<section class="project-main-section">
+		<section class="projects-left-side">
+			<h1>my projects</h1>
+			<a href="https://safe-house-automation-system.netlify.app/" target="_blank">
+			<img src="./Images/project1.svg" alt="picture of homepage to first project" class="project-one-img" /></a>
+			<div class="project-boxicons">
+				<p>built with:</p>
+				<box-icon type='logo' name='html5' color="#E34C26"></box-icon>
+				<box-icon name='css3' type='logo' color="#264DE4"></box-icon>
+				<box-icon name='javascript' type='logo' color="#FFFF00"></box-icon>
+				<img src="./Images/Sass_svg.svg" alt="image of scss boxicon" width="50px" height="50px"/>
+			</div>
+		</section>
+		<section class="projects-right-side">
+			<a href="https://safe-house-automation-system.netlify.app/" target="_blank">
+			<h1>safe house</h1>
+		</a>
+			<p>This project is a UI for a home automation system i designed and programmed for a project as part of my course. This project challenged me on multiple aspects. I had gone into it with limited knowledge on UI/UX design principles but I gained a lot of knowledge in aspects such as font selection, white space, and millers law (7 +-2).</p>
+			
+			<p>
+				This project also challenged me in terms of programming. It was the largest project I had attempted which meant I had to learn a SCSS methodology and I had to keep my files clean and readable to the best of my abilities.</p>
+		</section>
 	</section>
-	<section class=" homepage-display-picture">
-		<img src="./Images/portfolio picture-1.svg" alt="picture of Ben Ricketts" />
-	</section>
-</div>
 </main>
+
 <footer>
 	<hr />
 	<div class="footer-icons-container">
