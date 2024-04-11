@@ -44,7 +44,6 @@ hr {
 .homepage-body-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 80vh;
   @media (max-width: 630px) {
     grid-template-columns: 1fr;
   }
@@ -56,7 +55,7 @@ hr {
 .project-main-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 80vh;
+
   @media (max-width: 630px) {
     grid-template-columns: 1fr;
   }
@@ -64,12 +63,22 @@ hr {
 
 .project-boxicons {
   display: flex;
-  margin: 0px 0px 0px 30px;
+  margin: 0px 0px 0px 70px;
   gap: 5px;
   img {
     z-index: -1;
   }
   @media (max-width: 600px) {
     justify-content: center;
+  }
+}
+
+// <-----------PROJECTS START------------->
+// <-----------ABOUT START------------->
+.aboutme-main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @media (max-width: 630px) {
+    grid-template-columns: 1fr;
   }
 }

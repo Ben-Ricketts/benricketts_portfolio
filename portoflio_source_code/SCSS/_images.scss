@@ -13,7 +13,7 @@
 .homepage-display-picture {
   display: grid;
   place-items: center;
-
+  margin-top: 10%;
   img {
     max-width: 100%;
     max-height: 100%;
@@ -35,5 +35,18 @@
   @media (max-width: 500px) {
     display: block;
     margin: 0 auto;
+  }
+}
+// <-----------PROJECTS END------------->
+// <-----------ABOUT START------------->
+
+.aboutme-right-side {
+  img {
+    margin: 10%;
+    width: 50%;
+    @media (max-width: 630px) {
+      display: block;
+      margin: 0 auto;
+    }
   }
 }
