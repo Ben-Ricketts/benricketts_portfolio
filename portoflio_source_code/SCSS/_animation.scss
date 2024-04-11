@@ -74,6 +74,8 @@
 
 .aboutme-img {
   animation: fadeInImg 3s ease-in-out forwards;
+  position: relative;
+  z-index: -1;
 }
 
 @keyframes fadeInImg {
