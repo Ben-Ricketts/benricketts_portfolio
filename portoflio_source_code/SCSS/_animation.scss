@@ -55,6 +55,8 @@
 
 .aboutme-paragraph {
   animation: fadeInFromTop 2s ease-in-out forwards;
+  position: relative;
+  z-index: -1;
 }
 
 @keyframes fadeInFromTop {
